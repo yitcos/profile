@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size:medium;
+  color: black;
+  line-height: normal;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+h1, h2, h3 {
+  color: 243642;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.card-profile {
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-profile img {
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.card-profile a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}
+
+.card-profile a:hover {
+  color: blueviolet;
+  text-decoration: underline;
+}
+
+.card-profile p {
+  font-size: 14px;
+  color: #333
+}
+
+.card-social {
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-social i {
+  font-size: 40px;
+}
+
+.card-social ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.card-social > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.card-btn {
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+  background-color:darkgreen;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 9px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: 629584;
+  color: black;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: underlined;
+  color: 387478;
+}
+
+a:hover {
+  color: 629584;
+  text-decoration: underlined;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
